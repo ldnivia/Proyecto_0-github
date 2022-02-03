@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Eventos</title>
+    </head>
+    <body>
+        <form onsubmit="llamarPost(event)">
+        <h2>Lista de eventos</h2>
+
+            <div id="main"></div>
+        </br>
+        
+        <h2>Crear nuevo evento</h2>
+
+            <label for="nombre">Nombre del Evento:</label>
+            <input type="text" placeholder="nombre" id="nombre"/>
+        </br>
+
+            <label for="categoria">Seleccione una categoria:</label>
+            <select name="categoria" id="categoria">
+                <option value="Conferencia">Conferencia</option>
+                <option value="Seminario">Seminario</option>
+                <option value="Congreso">Congreso</option>
+                <option value="Curso">Curso</option>
+            </select>
+        </br>
+
+            <label for="lugar">Lugar del Evento:</label>
+            <input type="text" placeholder="lugar" id="lugar"/>
+        </br>
+
+            <label for="direccion">Direccion del Evento:</label>
+            <input type="text" placeholder="direccion" id="direccion"/>
+        </br>
+
+            <label for="fechaInicio">Fecha inicio del Evento:</label>
+            <input type="text" placeholder="fechaInicio" id="fechaInicio"/>
+        </br>
+
+            <label for="fechaFin">Fecha de fin del Evento:</label>
+            <input type="text" placeholder="fechaFin" id="fechaFin"/>
+        </br>
+
+            <input type="submit" value="Grabar" />
+            <script src="js/app.js"></script>
+        </form>
+        
+    </body>
+</html>
+
